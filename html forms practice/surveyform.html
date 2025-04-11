@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+</head>
+<body>
+<h1>Please fill up this quick survey.</h1>
+<form>
+    <label for="name">Name:
+        <input type="text" value="name" id="name" placeholder="Write your name">
+    </label>
+<br><label for="age">Age:
+        <input type="number" value="age" id="age" placeholder="Enter your age">
+    </label>
+<br><label for="gender">Gender:
+        <input type="radio" value="male" id="gender" placeholder="Write your name"> 
+    </label>
+<br><label for="interests">Interests
+        <br><input type="checkbox" value="reading" id="interests">Reading 
+        <br><input type="checkbox" value="music(playing music/listening)" id="interests">Playing an instrument or listening to music 
+        <br><input type="checkbox" value="coding & developing" id="interests">Coding & Developing
+        <br><input type="checkbox" value="playing sports(indoor/outdoor)" id="interests">Playing Sports (Indoor/Outdoor) 
+        <br><input type="checkbox" value="cooking" id="interests">Cooking 
+    </label>
+<br> <h3>This is for people who love to code & develop.</h3>
+<br><label for="coders">Select your favourite programming language.
+    <br><select id="fav-prog-languages" name="Favourite Programing Languages">
+            <option value="select">Select</option>
+            <option value="Python">Python</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Java">Java</option>
+            <option value="Ruby">Ruby</option>
+            <option value="c#(c-sharp)">C#(C-Sharp)</option>
+            <option value="assembly-language">Assembly Language</option>
+        </select>
+    </label>
+<br><label for="feedback">Share your opinions with us.
+        <input type="text" value="feedback" id="feedback" placeholder="your opinions please">
+    </label>
+<br>
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
